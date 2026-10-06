@@ -1,4 +1,22 @@
+"""Day 18 — OOP Basics.
+Task: Create a Student class with grade().
+"""
+
 class Student:
-    def __init__(s,n,m): s.n, s.m = n, m
-    def grade(s): return "A" if s.m>=90 else "B" if s.m>=60 else "C"
-print(Student("Ravi",85).grade())
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def grade(self):
+        if self.marks >= 90:
+            return "A"
+        elif self.marks >= 60:
+            return "B"
+        return "C"
+
+def main():
+    s = Student("Ravi", 85)
+    print(s.name, "->", s.grade())
+
+if __name__ == "__main__":
+    main()

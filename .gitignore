@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+myenv/
+venv/
+.env
+students.json
+data.csv
+data.json
+shop.txt
+*.log
+.DS_Store
+.vscode/

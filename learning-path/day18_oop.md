@@ -203,7 +203,7 @@ How it ties to earlier days:
 1. Fill in `day18_oop.py`: create a `Person` class with `name`, `age` and a `greet()` method.
 2. Create a `Rectangle(width, height)` with `area()` and `perimeter()` methods and a nice `__str__`.
 3. Extend `BankAccount` with a `history` list that records every deposit and withdrawal, plus a `show_history()` method.
-4. Create `Node(name, status)` and `Cluster(name)` where the cluster holds a list of nodes, with `add_node()` and `unhealthy_nodes()`. This is a good model for your own work.
+4. Create `Node(name, status)` and `Cluster(name)` where the cluster holds a list of nodes, with `add_node()` and `unhealthy_nodes()`. This is a good model for real systems.
 5. Make `Circle` and `Square` classes that both have `area()`. Put them in one list and loop over them.
 6. Reproduce the "forgot `self`" error and read the message.
 

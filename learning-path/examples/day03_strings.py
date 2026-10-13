@@ -31,8 +31,8 @@ print("a,b,c".split(","))     # ['a', 'b', 'c']
 # BLOCK 5: checking inside strings
 email = "sam@example.com"
 print("@" in email)           # True
-print(email.endswith(".io"))  # True
-print(len(email))             # 11
+print(email.endswith(".com"))  # True
+print(len(email))             # 15
 
 # BLOCK 6: strings are immutable
 word = "Python"

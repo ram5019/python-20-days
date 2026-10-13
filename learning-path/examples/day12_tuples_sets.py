@@ -11,7 +11,7 @@ print(point[0], point[1])
 # BLOCK 2: tuple unpacking
 x, y = point
 print(f"x={x}, y={y}")
-name, role, years = ("Sam", "Engineer", 15)
+name, role, years = ("Sam", "Engineer", 5)
 print(name, role, years)
 
 # BLOCK 3: swapping with tuples

@@ -9,7 +9,7 @@ print("Hello, Python!")
 # BLOCK 2: print several things
 print("Name: Sam")
 print("Role:", "Engineer")          # comma puts a space between items
-print("Years of experience:", 15)   # numbers need no quotes
+print("Years of experience:", 5)   # numbers need no quotes
 
 # BLOCK 3: control how print behaves
 print("A", "B", "C", sep="-")       # separator between items

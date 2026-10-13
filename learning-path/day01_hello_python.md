@@ -34,7 +34,7 @@ If you misspell an instruction, the assistant stops and says "I don't understand
 |-------|---------|---------|
 | Function call | `print(...)` | Ask Python to run a built-in action. The `( )` hold what you give it. |
 | String | `"Hello"` | Text. Must be inside quotes (`"..."` or `'...'`). |
-| Number | `15` | No quotes. Python treats it as a number. |
+| Number | `5` | No quotes. Python treats it as a number. |
 | Comment | `# note` | Ignored by Python. Notes for humans. |
 | Argument | `sep="-"` | An option you pass to a function to change its behaviour. |
 
@@ -56,12 +56,12 @@ print("Hello, Python!")
 ```python
 print("Name: Sam")
 print("Role:", "Engineer")
-print("Years of experience:", 15)
+print("Years of experience:", 5)
 ```
 
 **What it does:** three separate instructions, run in order, so you get three lines.
 Passing two items separated by a comma prints both with a space between.
-`15` has no quotes because it is a number. Try `print("15" + 1)` later and see what happens (Day 2 explains).
+`5` has no quotes because it is a number. Try `print("5" + 1)` later and see what happens (Day 2 explains).
 
 ### Block 3: controlling print
 
@@ -133,7 +133,7 @@ Blocks 1 to 3 run immediately, top to bottom. Block 4 is different: the body of 
 ## 9. Self-check
 
 - What does Python do when it reaches a `def` line? (Does it run the body?)
-- What is the difference between `"15"` and `15`?
+- What is the difference between `"5"` and `5`?
 - What do `sep` and `end` change?
 - Why does indentation matter?
 

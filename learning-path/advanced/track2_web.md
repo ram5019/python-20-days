@@ -21,7 +21,7 @@ All three frameworks do the same core job: **map a URL to a Python function**.
 
 You could write a server with raw sockets and parse HTTP by hand, but you would be rebuilding routing, validation, templates, security and error handling. Frameworks give you all of that so you only write **your** logic.
 
-Useful for you: internal dashboards, a small status API for team tools, a webhook receiver for alerts, and a front end over your scripts (like Day 20's student manager, but as a web page).
+Typical uses: internal dashboards, a small status API for team tools, a webhook receiver for alerts, and a front end over your scripts (like Day 20's student manager, but as a web page).
 
 ## 3. Simple way to understand
 

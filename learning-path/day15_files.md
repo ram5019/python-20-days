@@ -12,7 +12,7 @@ Variables live in memory and **vanish when the program ends**. A **file** lives 
 
 Think of everything you have built so far: close the program and all the data is gone. Real tools must **remember**: notes, scores, settings, logs. Files are the simplest form of **persistence**. They are also how Python reads data created by *other* programs: log files, exports, configs.
 
-For a support engineer this is daily work: read a log, filter lines, write a summary.
+This is everyday work in many jobs: read a log, filter lines, write a summary.
 
 ## 3. Simple way to understand
 

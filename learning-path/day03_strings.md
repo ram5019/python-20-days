@@ -10,7 +10,7 @@ A **string** (`str`) is a sequence of characters: text. Python gives you tools t
 
 ## 2. Why does this exist?
 
-Most real data is text: names, emails, log lines, file paths, messages. As a support engineer you already read logs and error strings all day. Python lets you automate that: pull the hostname out of a log line, check whether a message contains "error", clean up user input.
+Most real data is text: names, emails, log lines, file paths, messages. Many people read logs and error messages every day. Python lets you automate that: pull the hostname out of a log line, check whether a message contains "error", clean up user input.
 
 ## 3. Simple way to understand
 
@@ -102,7 +102,7 @@ A method is a function that belongs to a value. The dot means "use this tool **o
 ```python
 email = "sam@example.com"
 print("@" in email)
-print(email.endswith(".io"))
+print(email.endswith(".com"))
 print(len(email))
 ```
 

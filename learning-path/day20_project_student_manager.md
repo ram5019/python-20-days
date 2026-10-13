@@ -243,7 +243,7 @@ Work through them in this order, running the program after each.
 4. Add **export to CSV** with Python's `csv` module (Day 27 preview).
 5. Convert the student dict into a `Student` class (Day 18) with `to_dict()` and `from_dict()` methods for saving and loading.
 6. Write a few **tests** in a separate file: `assert grade_for(90) == "A"` and so on. This is where pure functions pay off.
-7. Change the project to manage something from your own work: tickets, clusters, runbooks. Only the field names change; the layers stay the same.
+7. Change the project to manage something else: tickets, an inventory, a library catalogue. Only the field names change; the layers stay the same.
 
 ## 9. Self-check
 
@@ -267,4 +267,4 @@ You now know:
 | **Real world** | files, JSON, error handling |
 | **Design** | layering a program, separating input, logic and storage |
 
-**Where next:** your `advanced/` folder (Days 21 to 28): comprehensions, lambda/map/filter, decorators, generators, virtual environments, APIs, CSV/JSON, and a weather CLI. Beyond that, pick a real problem from your own work, such as parsing log files or calling an API, and build it. That is how the skills become permanent.
+**Where next:** your `advanced/` folder (Days 21 to 28): comprehensions, lambda/map/filter, decorators, generators, virtual environments, APIs, CSV/JSON, and a weather CLI. Beyond that, pick a real problem you care about, such as parsing log files or calling an API, and build it. That is how the skills become permanent.

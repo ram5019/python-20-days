@@ -34,7 +34,7 @@ Lessons: `day21_*.md` to `day28_*.md` in this folder. Examples: `examples/`.
 | 🧠 AI/ML | scikit-learn, PyTorch | `track4_ai_ml.md` | `t4_sklearn.py`, `t4_pytorch.py` |
 | ☁️ Cloud/DevOps | boto3, Azure SDK, OCI SDK | `track5_cloud_devops.md` | `t5_boto3.py`, `t5_boto3_mock.py`, `t5_azure.py`, `t5_oci.py` |
 
-**Suggested order if unsure:** Part A first, then Data Science (Pandas is useful everywhere), then whichever track matches your work.
+**Suggested order if unsure:** Part A first, then Data Science (Pandas is useful everywhere), then whichever track matches your goals.
 
 ---
 

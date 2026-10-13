@@ -214,4 +214,4 @@ Learn one SDK well and the others feel familiar: only the names change.
 | AI/ML | train and evaluate models with scikit-learn and PyTorch |
 | Cloud/DevOps | inventory and audit AWS, Azure and OCI from code |
 
-**Best next step:** combine tracks on a project from your own work: for example, **cloud inventory → Pandas analysis → FastAPI dashboard**. Real projects that use two or three tracks together are where this becomes durable skill.
+**Best next step:** combine tracks on a project of your own choosing: for example, **cloud inventory → Pandas analysis → FastAPI dashboard**. Real projects that use two or three tracks together are where this becomes durable skill.

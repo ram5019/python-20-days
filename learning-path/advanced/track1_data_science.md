@@ -34,7 +34,7 @@ You can already do all of this with lists, dicts and loops. The problems:
 - **Convenience.** Day 13's counting loop, Day 27's CSV handling, and sorting by a field are each 5 to 10 lines of work. Pandas does each in one.
 - **Insight.** Numbers in a table are hard to read. One chart shows a spike instantly.
 
-Practical uses for you: analyse cluster metrics, find which nodes produce the most alerts, summarise weeks of support-case data, plot latency before and after a change.
+Typical uses: analyse cluster metrics, find which nodes produce the most alerts, summarise weeks of ticket data, plot latency before and after a change.
 
 ## 3. Simple way to understand
 
@@ -67,7 +67,7 @@ A list does `[10, 20, 30] * 2` → repeats the list! NumPy does the math.
 | 5 | 2-D array; `m[1, 2]`, `m[:, 0]` | `[row, column]` indexing; `:` means "all" (slicing, Day 3) |
 | 6 | `m.sum(axis=0)` | `axis=0` collapses **down** columns; `axis=1` collapses **across** rows |
 | 7 | `latency_ms > 100` gives a **boolean mask**; `latency_ms[mask]` filters | a comprehension's `if`, without a loop; `True` counts as 1 so `.sum()` counts matches |
-| 8 | mean, median, percentile, max, `argmax` | the statistics support engineers use (p95 latency) |
+| 8 | mean, median, percentile, max, `argmax` | the statistics engineers commonly use (p95 latency) |
 | 9 | `reshape(3, 4)` | same data, different shape |
 
 **How the blocks connect:** create (1, 4) → compute on all (2, 3) → shape and index (5, 9) → summarise (6) → filter and measure (7, 8).
@@ -150,7 +150,7 @@ Run it, then open the PNGs in `charts/`.
 
 1. **NumPy:** make an array of 20 random temperatures; print how many are above the mean and their average.
 2. **NumPy:** convert a list of latencies in seconds to milliseconds without a loop.
-3. **Pandas:** export any CSV from tools you use (or build one with Day 27) and run the "first look" commands (Block 2).
+3. **Pandas:** export any CSV from a tool or spreadsheet (or build one with Day 27) and run the "first look" commands (Block 2).
 4. **Pandas:** group it by one column and compute counts and an average; sort the result.
 5. **Pandas:** fix missing values in a column in two different ways and compare the effect on the mean.
 6. **Matplotlib:** plot your Task 4 result as a bar chart with a title and axis labels.

@@ -96,7 +96,7 @@ The centre of everything is the **list of dicts** shape you used in Day 13 and D
 1. In your stub, read `data.csv` as dicts and print the average age.
 2. Add a new column `grade` computed from marks and write a new CSV.
 3. Convert a CSV of servers to JSON, then filter only `status == "down"` and save that too.
-4. Count rows per category (Day 13 pattern) from a CSV you export from any tool you use.
+4. Count rows per category (Day 13 pattern) from a CSV you export from any tool or spreadsheet.
 5. Write `csv_to_json(csv_path, json_path)` and `json_to_csv(json_path, csv_path)` helper functions.
 6. Handle a missing file and a missing column with `try/except` (Day 16).
 

@@ -59,7 +59,7 @@ print(point[0], point[1])
 
 ```python
 x, y = point
-name, role, years = ("Sam", "Engineer", 15)
+name, role, years = ("Sam", "Engineer", 5)
 ```
 
 **What it does:** unpacking splits a tuple into separate variables in one line. The number of names on the left must equal the number of items on the right. You saw `i, s` in `enumerate` on Day 10, and that was tuple unpacking too.
@@ -122,7 +122,7 @@ print(team_a | team_b)    # all four names
 print(team_a - team_b)    # {'sam'}
 ```
 
-**What it does:** answers real questions: "Who is on both teams?", "Everyone involved?", "Who is only on A?". For a support engineer: "which nodes are in the alert list but not in the healthy list?" is exactly `alerts - healthy`.
+**What it does:** answers real questions: "Who is on both teams?", "Everyone involved?", "Who is only on A?". For an operations team: "which nodes are in the alert list but not in the healthy list?" is exactly `alerts - healthy`.
 
 ### Block 9: empty containers
 

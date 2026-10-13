@@ -17,7 +17,7 @@ Python dict/list  ◄──json.loads──  JSON text
 
 On Day 15 you could save **text** to a file. But your real data is dicts and lists (Day 13). You could not just `f.write(student)`: that fails with a `TypeError` because `write` wants a string.
 
-JSON solves it: it turns structured data into a string you can write to disk, and back into structure when you read it. And it is the **universal language of data exchange**: REST APIs, config files, logs, Kubernetes manifests, and the infrastructure and storage tooling all use it. Learning JSON means you can talk to almost any system.
+JSON solves it: it turns structured data into a string you can write to disk, and back into structure when you read it. And it is the **universal language of data exchange**: REST APIs, config files, logs, Kubernetes manifests, and most infrastructure and storage tooling all use it. Learning JSON means you can talk to almost any system.
 
 ## 3. Simple way to understand
 
